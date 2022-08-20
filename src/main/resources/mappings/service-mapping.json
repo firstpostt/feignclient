@@ -1,1 +1,29 @@
-
+{
+  "mappings": [
+    {
+      "request": {
+        "url": "/test/success",
+        "method": "POST"
+      },
+      "response": {
+        "status": 201,
+        "bodyFileName": "Test_Success.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "url": "/test/failure",
+        "method": "POST"
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}
